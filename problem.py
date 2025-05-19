@@ -1,5 +1,12 @@
 # Time Complexity :
+# push() -> O(1)
+# pop() -> O(1)
+# peek() -> O(1)
+# empty() -> O(1)
+
 # Space Complexity :
+# O(n) where n is the number of elements in the queue
+
 # Did this code successfully run on Leetcode: Yes
 # Any problem you faced while coding this: No
 
@@ -24,9 +31,6 @@ class MyQueue:
     def pop(self):
         self.move()
         return self.queue_out.pop()
-
-
-        
 
     def peek(self):
         self.move()
